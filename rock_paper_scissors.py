@@ -9,3 +9,4 @@ print("Choose from: ✊ (stone), ✋ (paper), ✌ (scissors)")
 a = input("Enter your weapon: ").strip().lower()
 
 # Validate input
+if a not in weapons:

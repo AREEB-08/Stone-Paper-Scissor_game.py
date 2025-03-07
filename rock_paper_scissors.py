@@ -12,3 +12,8 @@ a = input("Enter your weapon: ").strip().lower()
 if a not in weapons:
   print("Invalid choice! Please select stone, paper, or scissors.")
   exit()
+
+# Computer choice
+choices = list(weapons.keys())
+b = random.choice(choices)
+print(f"Computer chose {weapons[b]} ({b})")

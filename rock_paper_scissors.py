@@ -17,3 +17,11 @@ if a not in weapons:
 choices = list(weapons.keys())
 b = random.choice(choices)
 print(f"Computer chose {weapons[b]} ({b})")
+
+# Game logic
+if a == b:
+    print("It's a draw!")
+elif (a == 'stone' and b == 'scissors') or (a == 'paper' and b == 'stone') or (a == 'scissors' and b == 'paper'):
+    print("You win!")
+else:
+    print("Computer wins!")

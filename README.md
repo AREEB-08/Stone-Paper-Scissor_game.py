@@ -1,44 +1,99 @@
-# Rock Paper Scissors Game 🎮
+# ✊✋✌ Rock Paper Scissors - GUI Edition 🎮
 
-This is a simple **Rock, Paper, Scissors** game written in Python. The game allows a user to play against the computer using Unicode symbols for better visualization.
+Welcome to the **Graphical Rock, Paper, Scissors Game** built with **Python** and **Tkinter**!  
+This fun and colorful game lets you challenge the computer using emoji-based buttons with live visual feedback.
 
-## Requirements ⚙️
-- Python 3.x (Make sure Python is installed on your system)
-- A terminal or command prompt to run the script
+---
 
-## How to Play 🕹️
-1. Run the script in a Python environment.
-2. Choose one of the three options when prompted:
-   - ✊ (Stone)
-   - ✋ (Paper)
-   - ✌ (Scissors)
-3. The computer will randomly select one of the options.
-4. The result will be displayed:
-   - **Win** 🎉 if your choice beats the computer's.
-   - **Lose** 😞 if the computer's choice beats yours.
-   - **Draw** 🤝 if both choices are the same.
+## 🔧 Requirements
 
-## How to Run 🚀
-1. Clone this repository or download the script:
-   ```bash
-   git clone https://github.com/AREEB-08/rock_paper_scissors.git
-   cd rock_paper_scissors
-   ```
-2. Run the script using Python:
-   ```bash
-   python rock_paper_scissors.py
-   ```
+✅ Python 3.x installed on your system  
+✅ `Tkinter` (comes pre-installed with Python on most systems)  
+✅ A sense of fun 😄
 
-## Example Output 🖥️
+---
+
+## 🎯 Features
+
+✨ Clean and interactive **Graphical User Interface**  
+🎭 Emoji-based buttons: ✊ (Stone), ✋ (Paper), ✌ (Scissors)  
+⚡ Instant result display with a winner announcement  
+🔁 "Play Again" button to restart the match  
+🎨 Stylish layout with bold, modern visuals
+
+---
+
+## 🕹️ How to Play
+
+1. Run the game script using Python.
+2. In the GUI window:
+   - Click on any emoji to select your move.
+   - The computer picks a random move.
+   - The game displays the **versus** face-off, computer's move, and the final result.
+3. Click **Play Again** to challenge the computer again.
+
+---
+
+## 🚀 How to Run the Game
+
+1. Clone or download the repository:
+
+```bash
+git clone https://github.com/AREEB-08/rock_paper_scissors.git
+cd rock_paper_scissors
 ```
-Choose from: ✊ (stone), ✋ (paper), ✌ (scissors)
-Enter your weapon: paper
-Computer chose ✌ (scissors)
-Computer wins!
+
+2. Run the Python GUI game:
+
+```bash
+python rock_paper_scissors_gui.py
 ```
 
-## License 📜
-This project is open-source and available under the MIT License.
+✅ Make sure to use the correct file name. Rename it if needed.
 
-Enjoy the game! 🎮✨
+---
 
+## 🖼️ Game Preview
+
+```
+ -----------------------------------------
+|        Rock Paper Scissors Game         |
+|                                         |
+|       ✊      ✋      ✌                  |
+|                                         |
+|      ✋  vs  ✌                           |
+|                                         |
+|   Computer chose: ✌                    |
+|   Result: Computer Wins! 💻             |
+|                                         |
+|         [ Play Again ]                  |
+ -----------------------------------------
+```
+
+---
+
+## 📁 Project Structure
+
+```
+rock_paper_scissors/
+│
+├── rock_paper_scissors_gui.py   # 🎮 Main game script with GUI
+├── README.md                    # 📘 Project documentation
+```
+
+---
+
+## 🔗 Repository
+
+**GitHub Repo:** [AREEB-08/rock_paper_scissors](https://github.com/AREEB-08/rock_paper_scissors)
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** 📝  
+Feel free to use, modify, and share!
+
+---
+
+## 🙌 Enjoy the Game and Beat the Computer! 🎉
